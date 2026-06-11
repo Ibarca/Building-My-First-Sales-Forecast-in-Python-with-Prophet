@@ -25,7 +25,7 @@ For this project, I worked with a historical monthly sales dataset containing se
 <p align="center">
   <img src="https://raw.githubusercontent.com/Ibarca/Building-My-First-Sales-Forecast-in-Python-with-Prophet/e48d1c2247b1b0c44cdd7fc79ef71d1f5124c060/Images/Image%2011.06.26%20at%2011.55.jpeg" width="30%" />
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Ibarca/Building-My-First-Sales-Forecast-in-Python-with-Prophet/e48d1c2247b1b0c44cdd7fc79ef71d1f5124c060/Images/Image%2011.06.26%20at%2011.44.jpeg" width="45%" />
+  <img src="https://github.com/Ibarca/Building-My-First-Sales-Forecast-in-Python-with-Prophet/blob/1914bae290e26a24780e51809c98260e4f2d3387/Images/Image%2011.06.26%20at%2011.55.jpeg" width="45%" />
 </p>
 
 
