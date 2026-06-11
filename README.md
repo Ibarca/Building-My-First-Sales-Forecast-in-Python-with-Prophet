@@ -8,14 +8,15 @@ In this article, I'll walk through how I built my first sales forecast in Python
 
 ## Why Forecasting Matters
 
-Forecasting helps businesses answer questions such as:
+Accurate forecasts help companies reduce inventory costs, improve product availability, and make better business decisions answering questions such as:
 
 - How much inventory should we order?
 - How many employees will we need next month?
 - What revenue can we expect next quarter?
 - When might we experience stock shortages?
 
-Accurate forecasts help companies reduce inventory costs, improve product availability, and make better business decisions.
+
+⚠️ An accurate demand forecast is the foundation of any planning process. By forecasting demand first, we can directly estimate future sales volumes and revenue, which then serve as the basis for a wide range of operational forecasts. These include inventory projections, order quantity calculations, workforce planning, and capacity requirements. While demand is the primary driver, these downstream calculations also require additional variables such as current inventory levels, incoming purchase orders, supplier lead times, minimum order quantities (MOQs), and productivity assumptions. However, the purpose of this article is to focus on demand forecasting itself, as it is the critical first step upon which all subsequent planning activities depend.
 
 ## The Dataset
 
