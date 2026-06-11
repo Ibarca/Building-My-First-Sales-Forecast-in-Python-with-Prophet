@@ -16,8 +16,10 @@ Accurate forecasts help companies reduce inventory costs, improve product availa
 - When might we experience stock shortages?
 
 
-<table align="center"> <tr> <td width="700" style="border:1px solid #d0d7de; padding:15px; border-radius:6px;"> ⚠️ **An accurate demand forecast is the foundation of any planning process.** By forecasting demand first, we can directly estimate future sales volumes and revenue, which then serve as the basis for a wide range of operational forecasts. These include inventory projections, order quantity calculations, workforce planning, and capacity requirements. 
+
+<table align="center"> <tr> <td  style="border:1px solid #d0d7de; padding:15px; border-radius:6px;"> ⚠️ **An accurate demand forecast is the foundation of any planning process.** By forecasting demand first, we can directly estimate future sales volumes and revenue, which then serve as the basis for a wide range of operational forecasts. These include inventory projections, order quantity calculations, workforce planning, and capacity requirements. 
 While demand is the primary driver, these downstream calculations also require additional variables such as current inventory levels, incoming purchase orders, supplier lead times, minimum order quantities (MOQs), and productivity assumptions. However, the purpose of this article is to focus on demand forecasting itself, as it is the critical first step upon which all subsequent planning activities depend. </td> </tr> </table>
+
 
 ## The Dataset
 
