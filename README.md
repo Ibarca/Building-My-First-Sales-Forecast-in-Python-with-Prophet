@@ -46,7 +46,6 @@ Example:
 | 2021-03-01 | 1280 |
 
 
-After preparing the data and converting it into Prophet's required format, I explored the historical sales behavior to better understand demand fluctuations and seasonality. This historical information became the basis for training the model and generating forecasts for the following 12 months.
 
 ## Preparing the Data
 
