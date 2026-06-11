@@ -37,6 +37,8 @@ Prophet requires very little preprocessing compared to many machine learning mod
 | ds | Date column |
 | y | Value to forecast |
 
+The ds column tells Prophet when each observation occurred, while the y column tells it what happened at that point in time. Using these two fields, Prophet automatically identifies trends, seasonality patterns, and recurring cycles in the historical data.
+
 Example:
 
 | ds | y |
