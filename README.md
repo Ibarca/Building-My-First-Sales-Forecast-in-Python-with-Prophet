@@ -30,9 +30,7 @@ For this project, I worked with a historical monthly sales dataset containing se
   <img src="https://github.com/Ibarca/Building-My-First-Sales-Forecast-in-Python-with-Prophet/blob/5f0f7635bbc5fbb0b56e71e25492eaa8e09aaba5/Images/Image%2011.06.26%20at%2011.44.jpeg" width="45%" />
 </p>
 
-
-
-Before using Prophet, the data needs to follow a specific structure:
+Prophet requires very little preprocessing compared to many machine learning models, which makes it beginner-friendly. The data needs to follow a specific structure:
 
 | Column | Description |
 |----------|-------------|
@@ -47,7 +45,8 @@ Example:
 | 2021-02-01 | 1350 |
 | 2021-03-01 | 1280 |
 
-Prophet requires very little preprocessing compared to many machine learning models, which makes it beginner-friendly.
+
+After preparing the data and converting it into Prophet's required format, I explored the historical sales behavior to better understand demand fluctuations and seasonality. This historical information became the basis for training the model and generating forecasts for the following 12 months.
 
 ## Preparing the Data
 
