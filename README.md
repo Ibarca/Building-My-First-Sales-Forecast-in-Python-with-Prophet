@@ -23,9 +23,9 @@ Accurate forecasts help companies reduce inventory costs, improve product availa
 For this project, I worked with a historical monthly sales dataset containing several years of sales observations. The data was structured as a time series, with each record representing the total sales achieved during a specific month. This monthly granularity made the dataset well-suited for forecasting long-term demand trends and seasonality patterns while reducing the noise often found in daily sales data.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ibarca/Building-My-First-Sales-Forecast-in-Python-with-Prophet/e48d1c2247b1b0c44cdd7fc79ef71d1f5124c060/Images/Image%2011.06.26%20at%2011.55.jpeg" width="30%" />
+  <img src="https://github.com/Ibarca/Building-My-First-Sales-Forecast-in-Python-with-Prophet/blob/1914bae290e26a24780e51809c98260e4f2d3387/Images/Image%2011.06.26%20at%2011.55.jpeg" width="30%" />
   &nbsp;&nbsp;
-  <img src="https://github.com/Ibarca/Building-My-First-Sales-Forecast-in-Python-with-Prophet/blob/1914bae290e26a24780e51809c98260e4f2d3387/Images/Image%2011.06.26%20at%2011.55.jpeg" width="45%" />
+  <img src="https://github.com/Ibarca/Building-My-First-Sales-Forecast-in-Python-with-Prophet/blob/5f0f7635bbc5fbb0b56e71e25492eaa8e09aaba5/Images/Image%2011.06.26%20at%2011.44.jpeg" width="45%" />
 </p>
 
 
