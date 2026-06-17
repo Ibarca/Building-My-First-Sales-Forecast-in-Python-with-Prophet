@@ -84,6 +84,7 @@ Trend changes (changepoints) – moments where the growth rate shifts, allowing 
 Unlike many traditional forecasting methods, where trend and seasonality often need to be modeled manually, Prophet handles much of this complexity automatically. This allows analysts to build robust forecasts quickly while still benefiting from sophisticated time-series modeling techniques under the hood.
 
 At this point, the model has learned from the historical sales data and is ready to generate forecasts for future periods.
+
 ## Creating Future Predictions
 
 After training the model, I generated future dates and asked Prophet to make predictions.
@@ -94,15 +95,34 @@ future = model.make_future_dataframe(periods=12, freq='M')
 forecast = model.predict(future)
 ```
 
-This produced predictions for the next 12 months.
+The `make_future_dataframe()` function extends the existing timeline by creating additional future periods. In this example, I generated **12 future monthly observations**, allowing the model to forecast sales for the next year.
 
-The forecast dataset includes:
+The `predict()` function then uses everything the model learned from the historical data—trend, seasonality, and growth patterns—to estimate future sales values.
 
-- Predicted values (`yhat`)
-- Lower confidence interval (`yhat_lower`)
-- Upper confidence interval (`yhat_upper`)
+As a result, Prophet returns a new DataFrame called `forecast` containing predictions for both historical and future dates.
 
-This is valuable because forecasts should never be treated as exact numbers—they always contain uncertainty.
+
+## Key Forecast Outputs
+
+
+The forecast dataset includes several useful columns:
+
+| Column | Description |
+|----------|----------|
+| `yhat` | Predicted sales value |
+| `yhat_lower` | Lower bound of the forecast interval |
+| `yhat_upper` | Upper bound of the forecast interval |
+
+The prediction interval is particularly important because forecasts should never be interpreted as exact numbers. Every forecast contains uncertainty, and the further we predict into the future, the greater that uncertainty tends to become.
+
+Rather than saying *"sales next month will be exactly 2,500 units,"* the model provides a likely range of outcomes. This helps planners and decision-makers assess risk and prepare for different demand scenarios.
+
+For example:
+
+> Predicted sales: **2,500 units**  
+> Expected range: **2,200 – 2,800 units**
+
+This range provides far more valuable business insight than a single number because it acknowledges the uncertainty inherent in forecasting.
 
 ## Visualizing the Forecast
 
