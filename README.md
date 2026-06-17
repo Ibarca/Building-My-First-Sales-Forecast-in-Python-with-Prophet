@@ -132,6 +132,8 @@ One of the things I enjoyed most about Prophet is how quickly it generates profe
 fig = model.plot(forecast)
 ```
 
+ <img src=" https://github.com/Ibarca/Building-My-First-Sales-Forecast-in-Python-with-Prophet/blob/9168947f728be380828b52ec79797511c11dc9ad/Images/Image.png" />
+
 The resulting visualization provides a clear overview of the entire time series and helps validate whether the forecast appears reasonable. It also makes it easier to identify trends, seasonal patterns, and periods where uncertainty increases.
 
 The chart includes:
