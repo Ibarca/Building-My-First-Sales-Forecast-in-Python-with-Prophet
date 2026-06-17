@@ -212,8 +212,8 @@ In future articles, I will explore how to evaluate forecast accuracy using metri
 
 In future articles, I plan to explore:
 
-1. Forecast validation and backtesting
-2. Forecast accuracy metrics (MAE, RMSE, MAPE)
-3. Inventory planning applications
-4. Demand forecasting with external variables
-5. Interactive forecasting dashboards with Plotly
+- How to validate forecasts using backtesting techniques
+- Measuring forecast performance with MAE, RMSE, and MAPE
+- Translating demand forecasts into inventory planning decisions
+- Incorporating external variables such as weather, holidays, and marketing campaigns
+- Building interactive forecasting dashboards with Plotly
