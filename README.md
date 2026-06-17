@@ -65,6 +65,7 @@ At this point, the dataset was ready for forecasting.
 ## Training the Model
 
 Creating a Prophet model is surprisingly simple.
+When the fit() method is executed, Prophet analyzes all historical observations and learns the underlying patterns present in the data. Rather than requiring the user to manually specify trend equations or seasonal factors, Prophet automatically decomposes the time series into several components.
 
 ```python
 from prophet import Prophet
@@ -75,13 +76,14 @@ model.fit(df)
 
 The model automatically identifies:
 
-- Trend
-- Seasonality
-- Holiday effects (if provided)
-- Changes in growth patterns
+Trend – the long-term direction of the data, whether sales are generally increasing, decreasing, or remaining stable over time.
+Seasonality – recurring patterns that repeat at regular intervals, such as weekly, monthly, or yearly fluctuations.
+Holiday effects (if provided) – special events or holidays that can influence demand when provided to the model.
+Trend changes (changepoints) – moments where the growth rate shifts, allowing the model to adapt to changes in business conditions or customer behavior.
 
-Unlike traditional regression models, Prophet handles much of this complexity behind the scenes.
+Unlike many traditional forecasting methods, where trend and seasonality often need to be modeled manually, Prophet handles much of this complexity automatically. This allows analysts to build robust forecasts quickly while still benefiting from sophisticated time-series modeling techniques under the hood.
 
+At this point, the model has learned from the historical sales data and is ready to generate forecasts for future periods.
 ## Creating Future Predictions
 
 After training the model, I generated future dates and asked Prophet to make predictions.
