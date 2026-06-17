@@ -84,10 +84,10 @@ model.fit(df)
 
 The model automatically identifies:
 
-Trend – the long-term direction of the data, whether sales are generally increasing, decreasing, or remaining stable over time.
-Seasonality – recurring patterns that repeat at regular intervals, such as weekly, monthly, or yearly fluctuations.
-Holiday effects (if provided) – special events or holidays that can influence demand when provided to the model.
-Trend changes (changepoints) – moments where the growth rate shifts, allowing the model to adapt to changes in business conditions or customer behavior.
+- **Trend** – The long-term direction of the data, showing whether demand or sales are generally increasing, decreasing, or remaining stable over time.
+- **Seasonality** – Recurring patterns that repeat at regular intervals, such as weekly, monthly, or yearly fluctuations in demand.
+- **Holiday Effects** *(optional)* – The impact of holidays, promotions, or special events on demand. When provided, Prophet can account for these events and adjust its forecasts accordingly.
+- **Trend Changes (Changepoints)** – Points in time where the underlying growth rate changes. Prophet automatically detects these shifts, allowing the model to adapt to changes in market conditions, customer behavior, or business performance.
 
 Unlike many traditional forecasting methods, where trend and seasonality often need to be modeled manually, Prophet handles much of this complexity automatically. This allows analysts to build robust forecasts quickly while still benefiting from sophisticated time-series modeling techniques under the hood.
 
