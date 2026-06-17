@@ -53,6 +53,8 @@ Example:
 
 Using Pandas, I converted the date column into a datetime format and renamed the columns to Prophet's required naming convention.
 
+In the original dataset, the dates were stored in a column called Month and sales values in a column called Sales. First, I converted the date column into a proper datetime format so that Prophet could recognize and process the time series correctly. Then, I renamed the columns to match Prophet's required naming convention.
+
 ```python
 df['ds'] = pd.to_datetime(df['Month'])
 df = df.rename(columns={'Sales': 'y'})
