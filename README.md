@@ -189,13 +189,7 @@ Depending on the data and model configuration, these components may include:
 - **Weekly seasonality (not included in this project)** – demand fluctuations that occur on specific days of the week.
 - **Holiday effects (not included in this project)** – the impact of special events or holidays when provided to the model.
 
-By separating these effects, Prophet transforms the forecasting process from a "black box" into an interpretable business tool, answering important business questions such as:
-
-- Is demand generally increasing or decreasing over time?
-- Are there recurring seasonal patterns in the data?
-- Which periods consistently generate the highest demand?
-- How strong is the seasonal effect compared to the overall trend?
-- Are there identifiable peaks and troughs that should influence planning decisions?
+By separating these effects, Prophet transforms the forecasting process from a "black box" into an interpretable business tool.
 
 For professionals working in demand planning, inventory management, or supply chain operations, this is often where the real business value begins to emerge. Understanding *what* the forecast predicts is important, but understanding *why* demand behaves in a certain way enables better decisions around inventory levels, purchasing, staffing, promotions, and capacity planning.
 
