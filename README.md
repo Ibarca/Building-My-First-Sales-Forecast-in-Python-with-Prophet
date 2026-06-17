@@ -168,14 +168,16 @@ This can be achieved with the following command:
 model.plot_components(forecast)
 ```
 
+![Forecast uncertainty intervals](https://github.com/Ibarca/Building-My-First-Sales-Forecast-in-Python-with-Prophet/blob/5872640dae492e488ef03369e59995c3835e739d/Images/Image%2017.06.26%20at%2016.26.jpeg?raw=true)
+
 The resulting visualization decomposes the forecast into separate charts, allowing us to inspect the underlying patterns learned from the historical data.
 
 Depending on the data and model configuration, these components may include:
 
 - **Trend** – the long-term growth or decline in demand over time.
 - **Yearly seasonality** – recurring patterns that repeat each year.
-- **Weekly seasonality** – demand fluctuations that occur on specific days of the week.
-- **Holiday effects** – the impact of special events or holidays when provided to the model.
+- **Weekly seasonality (not included in this project)** – demand fluctuations that occur on specific days of the week.
+- **Holiday effects (not included in this project)** – the impact of special events or holidays when provided to the model.
 
 By separating these effects, Prophet transforms the forecasting process from a "black box" into an interpretable business tool.
 
