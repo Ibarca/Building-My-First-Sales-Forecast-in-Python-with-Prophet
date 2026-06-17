@@ -126,6 +126,8 @@ For example:
 > Predicted sales: **2,500 units**  
 > Expected range: **2,200 – 2,800 units**
 
+![Prophet forecast uncertainty distribution](https://github.com/Ibarca/Building-My-First-Sales-Forecast-in-Python-with-Prophet/blob/1f55ff82474406b7ec9b22da38f399292a007d5d/Images/Prophet%20distribution%2017.%20Juni%202026%2C%2016_37_59.png?raw=true)
+
 This range provides far more valuable business insight than a single number because it acknowledges the uncertainty inherent in forecasting.
 
 ## Visualizing the Forecast
@@ -179,9 +181,7 @@ Depending on the data and model configuration, these components may include:
 - **Weekly seasonality (not included in this project)** – demand fluctuations that occur on specific days of the week.
 - **Holiday effects (not included in this project)** – the impact of special events or holidays when provided to the model.
 
-By separating these effects, Prophet transforms the forecasting process from a "black box" into an interpretable business tool.
-
-This visualization helps answer important business questions such as:
+By separating these effects, Prophet transforms the forecasting process from a "black box" into an interpretable business tool, answering important business questions such as:
 
 - Is demand generally increasing or decreasing over time?
 - Are there recurring seasonal patterns in the data?
