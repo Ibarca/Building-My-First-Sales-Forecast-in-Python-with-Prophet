@@ -107,13 +107,17 @@ As a result, Prophet returns a new DataFrame called `forecast` containing predic
 
 The forecast dataset includes several useful columns:
 
+![Forecast table](https://github.com/Ibarca/Building-My-First-Sales-Forecast-in-Python-with-Prophet/blob/5f8ab1cfdc5466df0100356b324e55b1a9ceac3f/Images/Image%2017.06.26%20at%2016.15.jpeg?raw=true)
+
 | Column | Description |
 |----------|----------|
 | `yhat` | Predicted sales value |
 | `yhat_lower` | Lower bound of the forecast interval |
 | `yhat_upper` | Upper bound of the forecast interval |
 
-The prediction interval is particularly important because forecasts should never be interpreted as exact numbers. Every forecast contains uncertainty, and the further we predict into the future, the greater that uncertainty tends to become.
+The prediction interval is particularly important because forecasts should never be interpreted as exact numbers. Every forecast contains uncertainty, and the further we predict into the future, the greater that uncertainty tends to become. By default, Prophet uses an **80% uncertainty interval**, meaning there is roughly an **80% probability** that the future observation will fall within that range, according to the model.
+
+
 
 Rather than saying *"sales next month will be exactly 2,500 units,"* the model provides a likely range of outcomes. This helps planners and decision-makers assess risk and prepare for different demand scenarios.
 
