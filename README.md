@@ -17,7 +17,15 @@ Accurate forecasts help companies reduce inventory costs, improve product availa
 
 
 
-<table align="center"> <tr> <td  style="border:1px solid #d0d7de; padding:15px; border-radius:6px;"> ⚠️ **It is important to distinguish demand forecasting from other planning processes. Forecasting demand focuses solely on predicting customer demand based on historical sales patterns and trends. Activities such as inventory planning, order quantity calculations, workforce planning, and capacity management come later. While they rely on the demand forecast as their starting point, they also require additional inputs such as current inventory levels, incoming purchase orders, supplier lead times, minimum order quantities (MOQs), and productivity assumptions.** </td> </tr> </table>
+<table align="center">
+<tr>
+<td>
+
+⚠️ **It is important to distinguish demand forecasting from other planning processes. Demand forecasting focuses solely on predicting future customer demand based on historical sales patterns and trends. Activities such as inventory planning, order quantity calculations, workforce planning, and capacity management come later. While these processes rely on the demand forecast as their starting point, they also require additional inputs such as current inventory levels, incoming purchase orders, supplier lead times, minimum order quantities (MOQs), and productivity assumptions.**
+
+</td>
+</tr>
+</table>
 
 
 ## The Dataset
