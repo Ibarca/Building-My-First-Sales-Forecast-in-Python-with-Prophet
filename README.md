@@ -1,6 +1,6 @@
 # Building My First Sales Forecast in Python with Prophet
 
-When I worked in Category Management and Demand Planning, forecasting was always a critical part of the job. Most of our forecasts were built using Excel-based methods, moving averages, market knowledge, and business assumptions.
+When I worked in Category Management and Demand Planning, forecasting was always a critical part of the job. Most of our forecasts were built using Excel-based methods, exponential smoothings, moving averages, market knowledge, and business assumptions.
 
 As I transition into Data Analytics, I wanted to understand how modern forecasting tools work in Python. One of the first libraries I explored being a Le Wagon student was Prophet, an open-source forecasting library originally developed by Meta.
 
