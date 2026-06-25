@@ -156,17 +156,6 @@ The chart includes:
 - Forecasted sales values
 - Confidence intervals around the forecast
 
-These visualizations are particularly valuable when presenting results to business stakeholders, as they transform complex statistical outputs into an intuitive and easy-to-understand format.
-
-For users who require a more dynamic experience, Prophet can also generate interactive visualizations using Plotly.
-
-```python
-from prophet.plot import plot_plotly
-
-plot_plotly(model, forecast)
-```
-
-Interactive charts allow users to zoom into specific periods, hover over individual data points, inspect forecast values, and explore the model's behavior in greater detail. This can be especially useful when analyzing long time series or discussing forecasts with decision-makers who want to investigate particular periods more closely.
 
 ## Understanding Trend and Seasonality
 
@@ -189,11 +178,11 @@ Depending on the data and model configuration, these components may include:
 - **Weekly seasonality (not included in this project)** – demand fluctuations that occur on specific days of the week.
 - **Holiday effects (not included in this project)** – the impact of special events or holidays when provided to the model.
 
-By separating these effects, Prophet transforms the forecasting process from a "black box" into an interpretable business tool.
+By separating these different effects, Prophet turns forecasting from a simple “black box” prediction into a more interpretable business tool.
 
-For professionals working in demand planning, inventory management, or supply chain operations, this is often where the real business value begins to emerge. Understanding *what* the forecast predicts is important, but understanding *why* demand behaves in a certain way enables better decisions around inventory levels, purchasing, staffing, promotions, and capacity planning.
+For professionals working in demand planning, inventory management, or supply chain operations, this is where the real business value often starts to appear. Knowing what the forecast predicts is important, but understanding why demand changes over time allows teams to make better decisions around inventory levels, purchasing, staffing, promotions, and capacity planning.
 
-Instead of simply forecasting future sales, Prophet helps uncover the underlying drivers of demand, turning historical data into actionable business insights.
+Instead of only projecting future sales, Prophet helps identify the underlying drivers of demand. In future articles, I will explore this in more detail with practical examples, such as the impact of marketing campaigns, weather conditions, holidays, promotions, and other external factors on sales performance.
 
 
 ## Conclusion
