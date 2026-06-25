@@ -183,7 +183,7 @@ By separating these different effects, Prophet turns forecasting from a simple â
 For professionals working in demand planning, inventory management, or supply chain operations, this is where the real business value often starts to appear. Knowing what the forecast predicts is important, but understanding why demand changes over time allows teams to make better decisions around inventory levels, purchasing, staffing, promotions, and capacity planning.
 
 Instead of only projecting future sales, Prophet helps identify the underlying drivers of demand. In future articles, I will explore this in more detail with practical examples, such as the impact of marketing campaigns, weather conditions, holidays, promotions, and other external factors on sales performance.
-
+ 
 
 ## Conclusion
 
